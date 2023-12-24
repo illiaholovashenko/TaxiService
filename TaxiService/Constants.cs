@@ -11,7 +11,7 @@ namespace TaxiService
 {
     internal static class Constants
     {
-        public const string PASSWORD = "";
+        public const string PASSWORD = "121NuRe22";
         public const string MY_GOOGLE_MAIL = "illia.holovashenko@nure.ua";
         public const string MAIL_SUBJECT = "TaxiService Authorisation";
         public const string MAIL_TEXT = "<h2>Ваш код для входу в TaxiService:</h2>";
