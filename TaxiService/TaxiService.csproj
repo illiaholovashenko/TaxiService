@@ -603,6 +603,7 @@
     <None Include="TaxiDataSet.xss">
       <DependentUpon>TaxiDataSet.xsd</DependentUpon>
     </None>
+    <None Include="TaxiService.bacpac" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
