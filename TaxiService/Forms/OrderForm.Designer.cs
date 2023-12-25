@@ -213,7 +213,7 @@
             // passenger_idComboBox
             // 
             this.passenger_idComboBox.DataSource = this.passengerBindingSource;
-            this.passenger_idComboBox.DisplayMember = "First_name";
+            this.passenger_idComboBox.DisplayMember = "Email";
             this.passenger_idComboBox.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.passenger_idComboBox.FormattingEnabled = true;
             this.passenger_idComboBox.Location = new System.Drawing.Point(293, 438);

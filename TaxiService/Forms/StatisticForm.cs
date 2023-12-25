@@ -81,11 +81,11 @@ namespace TaxiService.Forms
         private void orderStatisticToolStripMenuItem2_Click(object sender, EventArgs e)
         {
             string query = "SELECT " +
-                "p.Passenger_id, CONCAT(p.First_name, ' ', p.Last_name) AS PassengerName," +
+                "p.Email, CONCAT(p.First_name, ' ', p.Last_name) AS PassengerName," +
                 " AVG(o.Price) AS AvgOrderPrice," +
                 " COUNT(o.Orders_id) AS OrderCount FROM Passenger p" +
                 " LEFT JOIN Orders o ON p.Passenger_id = o.Passenger_id " +
-                "GROUP BY p.Passenger_id, CONCAT(p.First_name, ' ', p.Last_name);";
+                "GROUP BY p.Email, CONCAT(p.First_name, ' ', p.Last_name);";
             SetDBView(statisticDataGridView, query);
         }
 

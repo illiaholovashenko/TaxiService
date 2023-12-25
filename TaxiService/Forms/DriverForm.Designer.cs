@@ -74,7 +74,7 @@
             // 
             first_nameLabel.AutoSize = true;
             first_nameLabel.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            first_nameLabel.Location = new System.Drawing.Point(25, 18);
+            first_nameLabel.Location = new System.Drawing.Point(12, 18);
             first_nameLabel.Name = "first_nameLabel";
             first_nameLabel.Size = new System.Drawing.Size(60, 28);
             first_nameLabel.TabIndex = 3;
@@ -84,7 +84,7 @@
             // 
             last_nameLabel.AutoSize = true;
             last_nameLabel.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            last_nameLabel.Location = new System.Drawing.Point(25, 70);
+            last_nameLabel.Location = new System.Drawing.Point(12, 70);
             last_nameLabel.Name = "last_nameLabel";
             last_nameLabel.Size = new System.Drawing.Size(119, 28);
             last_nameLabel.TabIndex = 5;
@@ -94,7 +94,7 @@
             // 
             middle_nameLabel.AutoSize = true;
             middle_nameLabel.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            middle_nameLabel.Location = new System.Drawing.Point(25, 124);
+            middle_nameLabel.Location = new System.Drawing.Point(12, 124);
             middle_nameLabel.Name = "middle_nameLabel";
             middle_nameLabel.Size = new System.Drawing.Size(143, 28);
             middle_nameLabel.TabIndex = 7;
@@ -104,7 +104,7 @@
             // 
             phone_numberLabel.AutoSize = true;
             phone_numberLabel.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            phone_numberLabel.Location = new System.Drawing.Point(25, 177);
+            phone_numberLabel.Location = new System.Drawing.Point(12, 177);
             phone_numberLabel.Name = "phone_numberLabel";
             phone_numberLabel.Size = new System.Drawing.Size(193, 28);
             phone_numberLabel.TabIndex = 9;
@@ -114,7 +114,7 @@
             // 
             cityLabel.AutoSize = true;
             cityLabel.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            cityLabel.Location = new System.Drawing.Point(25, 231);
+            cityLabel.Location = new System.Drawing.Point(12, 231);
             cityLabel.Name = "cityLabel";
             cityLabel.Size = new System.Drawing.Size(80, 28);
             cityLabel.TabIndex = 11;
@@ -124,7 +124,7 @@
             // 
             ratingLabel.AutoSize = true;
             ratingLabel.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            ratingLabel.Location = new System.Drawing.Point(25, 285);
+            ratingLabel.Location = new System.Drawing.Point(12, 285);
             ratingLabel.Name = "ratingLabel";
             ratingLabel.Size = new System.Drawing.Size(96, 28);
             ratingLabel.TabIndex = 13;
@@ -134,7 +134,7 @@
             // 
             driving_expirienceLabel.AutoSize = true;
             driving_expirienceLabel.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            driving_expirienceLabel.Location = new System.Drawing.Point(25, 337);
+            driving_expirienceLabel.Location = new System.Drawing.Point(12, 337);
             driving_expirienceLabel.Name = "driving_expirienceLabel";
             driving_expirienceLabel.Size = new System.Drawing.Size(91, 28);
             driving_expirienceLabel.TabIndex = 15;
@@ -144,7 +144,7 @@
             // 
             registration_dateLabel.AutoSize = true;
             registration_dateLabel.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            registration_dateLabel.Location = new System.Drawing.Point(25, 392);
+            registration_dateLabel.Location = new System.Drawing.Point(12, 392);
             registration_dateLabel.Name = "registration_dateLabel";
             registration_dateLabel.Size = new System.Drawing.Size(181, 28);
             registration_dateLabel.TabIndex = 17;
@@ -154,7 +154,7 @@
             // 
             emailLabel.AutoSize = true;
             emailLabel.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            emailLabel.Location = new System.Drawing.Point(25, 441);
+            emailLabel.Location = new System.Drawing.Point(12, 441);
             emailLabel.Name = "emailLabel";
             emailLabel.Size = new System.Drawing.Size(114, 28);
             emailLabel.TabIndex = 19;
@@ -164,7 +164,7 @@
             // 
             birth_dateLabel.AutoSize = true;
             birth_dateLabel.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            birth_dateLabel.Location = new System.Drawing.Point(25, 495);
+            birth_dateLabel.Location = new System.Drawing.Point(12, 495);
             birth_dateLabel.Name = "birth_dateLabel";
             birth_dateLabel.Size = new System.Drawing.Size(201, 28);
             birth_dateLabel.TabIndex = 21;
@@ -175,7 +175,7 @@
             this.cancelButton.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cancelButton.Location = new System.Drawing.Point(62, 581);
             this.cancelButton.Name = "cancelButton";
-            this.cancelButton.Size = new System.Drawing.Size(150, 50);
+            this.cancelButton.Size = new System.Drawing.Size(160, 55);
             this.cancelButton.TabIndex = 23;
             this.cancelButton.Text = "Скасувати";
             this.cancelButton.UseVisualStyleBackColor = true;
@@ -186,7 +186,7 @@
             this.confirmButton.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.confirmButton.Location = new System.Drawing.Point(313, 581);
             this.confirmButton.Name = "confirmButton";
-            this.confirmButton.Size = new System.Drawing.Size(150, 50);
+            this.confirmButton.Size = new System.Drawing.Size(160, 55);
             this.confirmButton.TabIndex = 24;
             this.confirmButton.Text = "Підтвердити";
             this.confirmButton.UseVisualStyleBackColor = true;

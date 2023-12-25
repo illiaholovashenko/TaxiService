@@ -154,7 +154,7 @@
             this.confirmButton.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.confirmButton.Location = new System.Drawing.Point(300, 476);
             this.confirmButton.Name = "confirmButton";
-            this.confirmButton.Size = new System.Drawing.Size(150, 50);
+            this.confirmButton.Size = new System.Drawing.Size(160, 55);
             this.confirmButton.TabIndex = 30;
             this.confirmButton.Text = "Підтвердити";
             this.confirmButton.UseVisualStyleBackColor = true;
@@ -165,7 +165,7 @@
             this.cancelButton.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cancelButton.Location = new System.Drawing.Point(50, 476);
             this.cancelButton.Name = "cancelButton";
-            this.cancelButton.Size = new System.Drawing.Size(150, 50);
+            this.cancelButton.Size = new System.Drawing.Size(160, 55);
             this.cancelButton.TabIndex = 29;
             this.cancelButton.Text = "Скасувати";
             this.cancelButton.UseVisualStyleBackColor = true;
