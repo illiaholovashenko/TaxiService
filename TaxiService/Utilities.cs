@@ -171,7 +171,7 @@ namespace TaxiService
             {
                 using (var writer = new PdfWriter(memoryStream))
                 {
-                    PdfFont font = PdfFontFactory.CreateFont(@"D:\\Илья\\Курсове проектування\\PTSans-Regular.ttf", PdfEncodings.IDENTITY_H);
+                    PdfFont font = PdfFontFactory.CreateFont(@"D:\\Илья\\Курсове проектування\\TaxiService\\PTSans-Regular.ttf", PdfEncodings.IDENTITY_H);
                     DocumentProperties documentProperties = new DocumentProperties();
 
                     using (var pdf = new PdfDocument(writer))
@@ -239,7 +239,7 @@ namespace TaxiService
 
                 using (var writer = new PdfWriter(memoryStream))
                 {
-                    PdfFont font = PdfFontFactory.CreateFont(@"D:\\Илья\\Курсове проектування\\PTSans-Regular.ttf", PdfEncodings.IDENTITY_H);
+                    PdfFont font = PdfFontFactory.CreateFont(@"D:\\Илья\\Курсове проектування\\TaxiService\\PTSans-Regular.ttf", PdfEncodings.IDENTITY_H);
                     DocumentProperties documentProperties = new DocumentProperties();
        
                     using (var pdf = new PdfDocument(writer))
